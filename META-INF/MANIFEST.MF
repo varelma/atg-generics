@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+ATG-Config-Path: config/
+ATG-Required: DAS DPS DSS DAS
+ATG-Class-Path: classes lib/commons-beanutils-1.9.2.jar lib/mapdb-1.0.6.jar lib/gson-2.3.jar lib/commons-io-2.4.jar lib/hazelcast-3.4-EA.jar  lib/hazelcast-client-3.4-EA.jar 
+ATG-Client-Class-Path: classes lib/commons-beanutils-1.9.2.jar lib/mapdb-1.0.6.jar lib/gson-2.3.jar lib/commons-io-2.4.jar lib/hazelcast-3.4-EA.jar lib/hazelcast-client-3.4-EA.jar    

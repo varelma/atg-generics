@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/Publishing/base/lib/classes.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/B2BCommerce/lib/resources.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/B2BCommerce/lib/classes.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DCS/lib/resources.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DCS/lib/classes.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DSS/lib/resources.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DSS/lib/classes.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DPS/lib/resources.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DPS/lib/classes.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS-UI/lib/uiresources.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS-UI/lib/uiclasses.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS-UI/lib/jhall.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/RL/lib/RLClient.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS/lib/resources.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS/lib/servlet.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS/lib/ice.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS/lib/spring-aop-1.2-rc1.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS/lib/jline-0.9.94.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS/lib/validation-api-1.0.0.GA.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS/lib/min-ejb3-api.jar"/>
+	<classpathentry kind="lib" path="lib/commons-beanutils-1.9.2.jar"/>
+	<classpathentry kind="lib" path="/app/oracle/product/atg/ATG/DAS/lib/classes.jar"/>
+	<classpathentry kind="lib" path="lib/mapdb-1.0.6.jar"/>
+	<classpathentry kind="lib" path="lib/gson-2.3.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="lib/hazelcast-3.4-EA.jar"/>
+	<classpathentry kind="lib" path="lib/hazelcast-client-3.4-EA.jar"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>
