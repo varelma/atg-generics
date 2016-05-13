@@ -12,7 +12,7 @@ import java.util.Map.Entry;
 import java.util.Set;
 
 import org.apache.commons.beanutils.ConstructorUtils;
-import org.jdp.util.ComponentResolver;
+import org.varelma.oc.util.ComponentResolver;
 
 import atg.nucleus.logging.ApplicationLogging;
 import atg.repository.MutableRepository;
