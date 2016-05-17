@@ -26,11 +26,17 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 
 import org.apache.commons.beanutils.ConstructorUtils;
 import org.apache.commons.io.FileUtils;
 import org.mapdb.DB;
 import org.mapdb.DBMaker;
+
+import com.hazelcast.client.HazelcastClient;
+import com.hazelcast.client.config.ClientConfig;
+import com.hazelcast.config.SerializerConfig;
+import com.hazelcast.core.HazelcastInstance;
 
 import atg.repository.MutableRepositoryItem;
 import atg.repository.RepositoryException;
@@ -38,11 +44,6 @@ import atg.repository.RepositoryItem;
 import atg.repository.RepositoryItemDescriptor;
 import atg.repository.RepositoryPropertyDescriptor;
 import atg.repository.RepositoryView;
-
-import com.hazelcast.client.HazelcastClient;
-import com.hazelcast.client.config.ClientConfig;
-import com.hazelcast.config.SerializerConfig;
-import com.hazelcast.core.HazelcastInstance;
 
 /**
  * @author Jon Pallas
@@ -151,9 +152,10 @@ public class GenericsRepository extends RepositoryWithCachesDisabled {
 	    queryCache = mapDB.createHashMap("queryCacheMap").keySerializer(org.mapdb.Serializer.STRING).valueSerializer(MutableRepositoryItemExtArrayMapDBSerializer).make();
 
 	} else {
-	    itemCache = new HashMap<String, MutableRepositoryItemExt>();
-	    queryCache = new HashMap<String, MutableRepositoryItemExt>();
-	}
+	    itemCache = new ConcurrentHashMap<String, MutableRepositoryItemExt>();
+	    queryCache = new ConcurrentHashMap<String, MutableRepositoryItemExt>();
+        
+	   }
     }
 
     private String hazelcastUser;
