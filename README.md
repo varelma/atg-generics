@@ -79,7 +79,7 @@ Additional ATG related
 
 [https://github.com/sparkred-insight/atgel](https://github.com/sparkred-insight/atgel)
 
-This software was created by Jon Pallas - jon@varelma.com
+Feedback to jon@varelma.com
 
 ![Varelma](https://raw.githubusercontent.com/varelma/atg-generics/master/varelma-small.png "Varelma")
 
