@@ -81,5 +81,5 @@ Additional ATG related
 
 This software was created by Jon Pallas - jon@varelma.com
 
-![Varelma](https://github.com/varelma/atg-generics/varelma-small.png "Varelma")
+![Varelma](https://github.com/varelma/atg-generics//master/varelma-small.png "Varelma")
 
